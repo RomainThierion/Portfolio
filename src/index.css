@@ -4,16 +4,30 @@ body {
     "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #3a3d42;
+}
+
+.title {
+  color: white;
+  font-weight: bold;
+  font-size: 70px;
 }
 
 h1 {
-  color: #8376ff;
+  color: white;
   font-weight: bold;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+.section1 {
+  position: relative;
+  width: 300px;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+  top: -60%;
+  color: white;
 }
 
 .avatar {
@@ -22,4 +36,8 @@ code {
   height: 250px;
   border: 3px solid white;
   border-radius: 50%;
+}
+
+.projects {
+  color: white;
 }
